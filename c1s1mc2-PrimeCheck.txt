@@ -1,0 +1,47 @@
+ALGORITHM
+
+
+
+
+Step1: Start
+
+Step2: Declare and initialize lower,upper,i,j 
+
+Step3: Start for loop from lower to upper
+
+Step4: start another for loop to check wheather the number is prime or not
+
+Step5: if the number is prime display the number
+
+Step5: Stop
+
+
+
+
+PSEUDOCODE
+
+
+BEGIN
+
+GET upper,lower
+
+SET flag=0
+
+FOR(i=upper;i<=lower;i++)
+
+FOR(j=2;j<i;j++)
+
+IF(i%j==0) then SET flag=0
+
+Break;
+
+ELSE SET flag=1
+
+IF(flag==1)
+
+PRINT i
+
+
+
+
+
